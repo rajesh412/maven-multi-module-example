@@ -4,6 +4,7 @@
     <artifactId>multi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <distributionManagement>
     <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
@@ -14,6 +15,7 @@
             <name>Internal Releases</name>
             <url>http://52.27.244.78:8081/nexus/content/repositories/snapshots/</url>
        </snapshotRepository>
+     </distributionManagement>
     <name>multi</name>
     <modules>
         <module>core</module>
