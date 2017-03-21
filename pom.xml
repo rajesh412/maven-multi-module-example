@@ -10,11 +10,11 @@
             <name>Internal Releases</name>
             <url>http://52.27.244.78:8081/nexus/content/repositories/releases/</url>
         </repository>
-        <releaseRepository>
+        <Repository>
             <id>nexus</id>
             <name>Internal Releases</name>
             <url>http://52.27.244.78:8081/nexus/content/repositories/snapshots/</url>
-       </releaseRepository>
+       </Repository>
      </distributionManagement>
     <name>multi</name>
     <modules>
